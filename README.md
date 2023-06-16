@@ -1,1 +1,1 @@
-# alx-low_level_programming
+Scripts for c programming language
