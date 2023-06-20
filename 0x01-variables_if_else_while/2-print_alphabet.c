@@ -9,10 +9,11 @@ int main(void)
 {
 	char n = 'a';
 
-	while (n <= 'z' && n == 'z')
+	while (n !=123)
 	{
 		putchar(n);
 		n++;
 	}
+	putchar('\n');
 	return (0);
 }
