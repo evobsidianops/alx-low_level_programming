@@ -24,6 +24,7 @@ void print_rev(char *s)
 		p = s[i];
 		s[i] = s[j];
 		s[j] = p;
+		puts(s[i]);
 
 	}
 }
