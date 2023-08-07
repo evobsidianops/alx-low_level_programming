@@ -20,15 +20,16 @@ int main(int argc, char *argv[])
 			if (!atoi(argv[i]))
 			{
 				printf("Error\n");
+				return (1);
 			}
 			else
 			{
-				add += atoi(argv[i])'
+				add += atoi(argv[i]);
 			}
 		}
-		printf("%d", add);
+		printf("%d\n", add);
 	}
-	elif (argc <= 1)
+	else if (argc <= 1)
 	{
 		printf("0\n");
 	}
