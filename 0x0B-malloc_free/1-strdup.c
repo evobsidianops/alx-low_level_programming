@@ -10,12 +10,19 @@ char *_strdup(char *str)
 {
 	char *ptr;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	ptr = (char *)malloc(strlen(str) + 1);
-	if (ptr != NULL && str != NULL)
+	if (ptr != NULL)
 	{
 		strcpy(ptr, str);
 	}
 	else
+	{
 		return (NULL);
+	}
 	return (ptr);
 }
