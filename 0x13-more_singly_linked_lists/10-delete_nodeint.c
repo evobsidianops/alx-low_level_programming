@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - Delete at specific node
  * @head: pointer to pointer address
  * @index: index node to be deleted
- * 
+ *
  * Return: returns 1 or -1
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -35,7 +35,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 			if (prev_node->next != NULL)
 			{
 				free(temp);
-				return(1);
+				return (1);
 			}
 			return (-1);
 		}
